@@ -1,0 +1,17 @@
+#Name, Date, RaDeg, DecDeg, AlertMag, HistoricMag, HistoricStdDev, Class, Published, Comment, TNSid
+Gaia24cfd,2024-08-06 14:05:30,268.08343,-29.05889,16.67,14.2,0.28,RCrB,2024-08-13 14:40:55,"more than 2 mag dimming in known RCrB star EROS2-star cg0030l3740, previous event seen",AT2024scf
+Gaia24cdx,2024-08-03 08:03:35,259.99376,-30.07267,15.83,17.02,0.38,RCrB,2024-08-12 22:55:14,brightening of a known R Cr Br star EROS2-CG RCB-12,AT2024sal
+Gaia24bst,2024-07-07 13:12:11,89.18157,-71.91963,16.3,14.41,0.25,RCrB,2024-07-09 16:15:04,Dimming in RCB star,AT2024pec
+Gaia23bmd,2023-04-08 11:31:18,276.06491,-24.25736,12.21,10.08,0.22,RCrB,2023-04-14 07:56:04,2.5 mag fading of known RCrB star,AT2023fnw
+Gaia23aez,2022-12-17 12:44:20,299.92738,33.99106,11.58,10.32,0.22,RCrB,2023-01-11 10:53:03,known R CrB star rebrightens after fading by >5 mag,AT2022aegd
+Gaia20fda,2020-11-06 14:10:29,190.82154,-54.52801,17.05,9.17,0.47,RCrB,2020-11-11 10:01:37,~8 mag dimming in R CrB star V* UW Cen,AT2020kzl
+Gaia20fay,2020-09-28 13:33:52,13.97896,-72.5866,17.71,15.76,0.1,RCrB,2020-11-01 14:40:03,~2 mag dimming in R CrB   RAW 961,AT2020yqf
+Gaia20dvt,2020-08-16 01:50:10,87.26555,19.07273,9.9,12.72,1.11,RCrB,2020-08-19 11:00:24,long term rise in RCB star,AT2020rra
+Gaia20drp,2020-08-08 14:58:02,248.70985,-38.03853,20.41,18.81,0.22,RCrB,2020-08-10 23:00:13,known R Cor Bor star fades by 0.7 mag,AT2020rbl
+Gaia20cpt,2020-06-04 07:19:33,75.25164,-69.06198,18.37,14.41,0.24,RCrB,2020-06-06 12:25:38,Known R CrB star LMC V0635 dims by 4.5 mag,AT2020ltm
+Gaia20btw,2020-03-15 22:22:41,266.50138,-33.79913,15.62,17.32,0.54,RCrB,2020-04-13 15:37:26,known R CrB star brightens by more than 2 mag,AT2020hcw
+Gaia20bhi,2020-02-20 03:33:51,279.75067,-40.90809,13.19,15.43,1.11,RCrB,2020-03-16 09:52:18,"Red source brightens by 6mags, coinciding with R Corona Borealis ASASSN-V J183900.17-405428.9.",AT2020emw
+Gaia20bbh,2020-02-26 19:29:33,281.31186,-9.42675,18.21,11.72,0.25,RCrB,2020-02-28 10:02:56,R CrB star FH Sct dims by 6 mag,AT2020dqk
+Gaia20ayr,2020-02-21 19:36:17,273.31197,-27.82811,12.33,13.66,0.59,RCrB,2020-02-24 14:22:48,known R CrB star brightens by more than 6 mag in 1.5 year,AT2020dgm
+Gaia18dew,2018-10-28 03:25:34,329.37754,53.89587,16.13,14.99,0.2,RCrB,2018-10-30 00:04:58,Long-term decline of ~1.5 mags in Gaia source coincident with R CrB type star V* V1405 Cyg,AT2018hqi
+Gaia16aau,2016-01-25 18:25:07,12.5446,-69.73271,15.13,,,RCrB,2016-01-30 13:46:16,"5mag change in 400days in Carbon Star [MH95]580, but spectrum rather blue. Candidate RCrB ?",AT2016dbu
