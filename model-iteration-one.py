@@ -69,8 +69,15 @@ dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 # Define model, loss function, and optimizer
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # Use GPU if available
 model = LSTMClassifier(input_size, hidden_size, num_layers, output_size).to(device)
+
 criterion = nn.BCELoss()  # Binary cross-entropy loss function
 optimizer = optim.Adam(model.parameters(), lr=learning_rate)  # Adam optimizer
+
+# load params:
+checkpoint = torch.load('checkpoint.pth', map_location=device)
+model.load_state_dict(checkpoint['model_state_dict'])
+optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+start_epoch = checkpoint['epoch'] + 1
 
 # Training Loop
 for epoch in range(epochs):
@@ -87,6 +94,14 @@ for epoch in range(epochs):
     # Print loss every 10 epochs
     if (epoch + 1) % 10 == 0:
         print(f'Epoch [{epoch+1}/{epochs}], Loss: {loss.item():.4f}')
+
+# save params
+torch.save({
+    'epoch': epoch,
+    'model_state_dict': model.state_dict(),
+    'optimizer_state_dict': optimizer.state_dict(),
+    'loss': loss
+}, 'checkpoint.pth')
 
 # Prediction Example
 def predict(model, sample):
