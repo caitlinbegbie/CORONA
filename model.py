@@ -5,7 +5,8 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset
 import pandas as pd
 import numpy as np
-
+import warnings
+warnings.simplefilter("ignore")
 # Define the LSTM Model
 class LSTMClassifier(nn.Module):
     def __init__(self, input_size, hidden_size, num_layers, output_size, dropout=0.3):
@@ -52,10 +53,15 @@ class LightCurveDataset(Dataset):
 def load_magnitudes(file_path, source_type):
     data = pd.read_csv(file_path)
     if source_type == "main_sequence":
-        magnitudes = data.iloc[:, 1]  
+        data = data.sort_values(by="JD (TCB)")
+        #good_idx = np.where(data.iloc[:, 16] == 0)[0]
+        #magnitudes = data.iloc[good_idx, 7]
+        magnitudes = data["avg Mag"]
     elif source_type == "gaia":
+        data = data.sort_values(by="JD (TCB)")
         magnitudes = data["avg Mag"]  
     elif source_type == "zenodo":
+        data = data.sort_values(by="jds")
         magnitudes = data["mags"]  
     else:
         raise ValueError(f"Unknown source type: {source_type}")
@@ -68,12 +74,13 @@ def load_magnitudes(file_path, source_type):
 def load_main_sequence_data(directory, label):
     data = []
     labels = []
-    for file_name in os.listdir(directory):
-        file_path = os.path.join(directory, file_name)
-        if file_name.endswith('.csv'):
-            magnitudes = load_magnitudes(file_path, source_type="main_sequence")
-            data.append(torch.tensor(magnitudes, dtype=torch.float32).unsqueeze(1))
-            labels.append(label)
+    for n in range(1000):
+        for file_name in os.listdir(directory):
+            file_path = os.path.join(directory, file_name)
+            if file_name.endswith('.csv'):
+                magnitudes = load_magnitudes(file_path, source_type="main_sequence")
+                data.append(torch.tensor(magnitudes, dtype=torch.float32).unsqueeze(1))
+                labels.append(label)
     return data, labels
 
 # Function to load data from the "rcb data" folder
@@ -101,13 +108,14 @@ def pad_sequences(sequences, max_len):
     return padded
 
 # Paths to data directories
-main_sequence_dir = r'c:\Users\lboui\CORONA\main sequence'
+# main_sequence_dir = r'c:\Users\lboui\CORONA\main sequence' # OLD DATA
+main_sequence_dir = r'c:\Users\lboui\CORONA\caitlinbegbie CORONA melina gaia_mainseq'
 rcb_data_dir = r'c:\Users\lboui\CORONA\rcb data'
 
 # Load and preprocess data
 main_sequence_data, main_sequence_labels = load_main_sequence_data(main_sequence_dir, label=0)
 rcb_data, rcb_labels = load_rcb_data(rcb_data_dir, label=1)
-
+print("lengths of main seq and rcb: ", len(main_sequence_data), len(rcb_data))
 # Combine data and labels
 data = main_sequence_data + rcb_data
 labels = torch.tensor(main_sequence_labels + rcb_labels, dtype=torch.float32).unsqueeze(1)
@@ -126,8 +134,8 @@ hidden_size = 64
 num_layers = 2
 output_size = 1
 learning_rate = 0.001
-epochs = 50
-
+epochs = 30
+loss = 0
 # Define model, loss function, and optimizer
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = LSTMClassifier(input_size, hidden_size, num_layers, output_size).to(device)
@@ -141,12 +149,13 @@ if os.path.exists(checkpoint_path):
     model.load_state_dict(checkpoint['model_state_dict'])
     optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
     start_epoch = checkpoint['epoch'] + 1
+    loss = checkpoint['loss']
 else:
     start_epoch = 0
 
 # Initialize epoch to ensure it is defined outside the loop
 epoch = start_epoch - 1  # Default to the last completed epoch before training starts
-
+correct = 0
 # Training Loop
 for epoch in range(start_epoch, epochs):
     for batch in dataloader:
@@ -155,12 +164,15 @@ for epoch in range(start_epoch, epochs):
         
         optimizer.zero_grad()
         outputs = model(x_batch)
+        correct += len([1 for p in outputs - y_batch if p.item() < 0.2 or p.item() > -0.2])
         loss = criterion(outputs, y_batch)
         loss.backward()
         optimizer.step()
-    
+    correct = 0
     if (epoch + 1) % 10 == 0:
-        print(f'Epoch [{epoch+1}/{epochs}], Loss: {loss.item():.4f}')
+        print(torch.cat((outputs, y_batch), dim=0))
+        print(f'Epoch [{epoch+1}/{epochs}], Loss: {loss.item():.4f}, % correct: {correct*100 / 44468}')
+        
 
 # Save checkpoint
 torch.save({
