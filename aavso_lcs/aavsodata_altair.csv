@@ -1,0 +1,9 @@
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transformed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping method,ADS Reference,Digitizer,Credit
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transfomed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping Method,ADS Reference,Digitizer,Credit
+2456830.312,4.0,,,Vis.,MQA,,3.7,4.4,THE AAVSO VARIABLE,,,,Z,,,,ALF AQL,AAVSO,STD,,,,
+2457669.58472,0.8,,,Vis.,DMID,,Tarazed,,X16719HI,,,,Z,,,,ALF AQL,AAVSO,STD,,,,
+2457693.65074,0.7,,,Vis.,DMID,,08,,X16899NB,,,,Z,,,,ALF AQL,AAVSO,STD,,,,
+2457694.60352,1.1,,,Vis.,DMID,,08,,X16908EA,,,,Z,,,,ALF AQL,AAVSO,STD,,,,
+2458046.39583,0.7,,,Vis.,DCMA,,2.7,,X21304BBP,,,,Z,,,,HIP 97649,AAVSO,STD,,,,
+2458341.284,3.5,,,Vis.,MQA,,3.7,,AAVSO,,,,Z,,,,ALF AQL,AAVSO,STD,,,,
+2459072.58611,0.75,,,Vis.,DMID,,"""0.02, Vega ""","""1.2, alf Cyg """,X25583UU,,,,Z,,,,ALF AQL,AAVSO,STD,,,,

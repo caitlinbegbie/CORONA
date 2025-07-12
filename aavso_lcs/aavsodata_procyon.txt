@@ -1,0 +1,7 @@
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transfomed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping Method,ADS Reference,Digitizer,Credit
+2459638.35078,0.34,0.01,,V,NOT,K,Ensemble,GAM ORI,GCPD,6 comp stars; k_v=0.23,1,1.41,Z,,1.598,,NSV 3672,BAV,STD,,,,
+2459642.20479,0.354,0.01,,V,NOT,K,Ensemble,GAM ORI,GCPD,6 comp stars; k_v=0.26,1,1.43,Z,,1.61,,NSV 3672,BAV,STD,,,,
+2459646.26258,0.339,0.01,,V,NOT,K,Ensemble,GAM ORI,GCPD,6 comp stars; k_v=0.26 ,1,1.5,Z,,1.6,,NSV 3672,BAV,STD,,,,
+2459928.62639,<2.0,,,Vis.,YSIA,W,NA,,NA,,,,Z,,,,NSV 3672,AAVSO,STD,,,,
+2459984.42589,0.355,0.015,,V,NOT,K,Ensemble,GAM ORI,GCPD,5 comp stars; k_v=0.29 ,1,1.41,Z,,1.597,,NSV 3672,BAV,STD,,,,
+2459996.29401,0.347,0.008,,V,NOT,K,Ensemble,GAM ORI,GCPD,6 comp stars; k_v=0.22 ,1,1.55,Z,,1.617,,NSV 3672,BAV,STD,,,,
