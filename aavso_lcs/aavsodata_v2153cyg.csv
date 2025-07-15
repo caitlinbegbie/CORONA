@@ -1,0 +1,21 @@
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transformed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping method,ADS Reference,Digitizer,Credit
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transfomed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping Method,ADS Reference,Digitizer,Credit
+2455936.268,7.3,,,Vis.,TLA,,,,unknown,B70x16,,,Z,,,,V2153 Cyg,BAA-VSS,STD,,,,BAAVSS
+2455939.237,7.2,,,Vis.,TLA,,,,unknown,G100(f/5),,,Z,,,,V2153 Cyg,BAA-VSS,STD,,,,BAAVSS
+2455950.252,7.2,,,Vis.,TLA,,,,unknown,B70x16,,,Z,,,,V2153 Cyg,BAA-VSS,STD,,,,BAAVSS
+2455955.268,7.4,,,Vis.,TLA,,,,unknown,B70x16,,,Z,,,,V2153 Cyg,BAA-VSS,STD,,,,BAAVSS
+2455961.263,7.2,,,Vis.,TLA,,,,unknown,B70x16,,,Z,,,,V2153 Cyg,BAA-VSS,STD,,,,BAAVSS
+2455974.265,7.4,,,Vis.,TLA,,,,unknown,B70x16,,,Z,,,,V2153 Cyg,BAA-VSS,STD,,,,BAAVSS
+2456148.403,7.3,,,Vis.,TLA,,,,unknown,B70x16,,,Z,,,,V2153 Cyg,BAA-VSS,STD,,,,BAAVSS
+2456159.426,7.5,,,Vis.,TLA,,,,unknown,B70x16,,,Z,,,,V2153 Cyg,BAA-VSS,STD,,,,BAAVSS
+2456175.35,7.5,,,Vis.,TLA,,,,unknown,B70x16,,,Z,,,,V2153 Cyg,BAA-VSS,STD,,,,BAAVSS
+2456187.36,7.6,,,Vis.,TLA,,,,unknown,B70x16,,,Z,,,,V2153 Cyg,BAA-VSS,STD,,,,BAAVSS
+2456203.34,7.6,,,Vis.,TLA,,,,unknown,B70x16,,,Z,,,,V2153 Cyg,BAA-VSS,STD,,,,BAAVSS
+2456255.342,7.6,,,Vis.,TLA,,,,unknown,B70x16,,,Z,,,,V2153 Cyg,BAA-VSS,STD,,,,BAAVSS
+2456271.276,7.6,,,Vis.,TLA,,,,unknown,B70x16,,,Z,,,,V2153 Cyg,BAA-VSS,STD,,,,BAAVSS
+2457283.41149,7.660,0.027,,V,PLU,,ENSEMBLE,000-BKS-278,X15307AQ,,1,,Z,,6.610,,V2153 CYG,AAVSO,STD,,,,
+2458043.336,7.607,0.018,,V,BMAI,,67,,X15890FO,,1,,Z,6.670,,,V2153 CYG,AAVSO,STD,,,,
+2458050.372,7.567,0.011,,V,BMAI,,67,,X15890FO,,1,,Z,6.670,,,V2153 CYG,AAVSO,STD,,,,
+2458304.446,7.509,0.012,,V,BMAI,,67,,X15890FO,,1,,Z,6.670,,,V2153 CYG,AAVSO,STD,,,,
+2458315.441,7.554,0.019,,V,BMAI,,67,,X15890FO,,1,,Z,6.67,,,V2153 CYG,AAVSO,STD,,,,
+2458389.377,7.557,0.007,,V,BMAI,,67,,X15890FO,,1,,Z,6.670,,,V2153 CYG,AAVSO,STD,,,,
