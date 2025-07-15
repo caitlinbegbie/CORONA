@@ -1,4 +1,5 @@
 JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transformed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping method,ADS Reference,Digitizer,Credit
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transformed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping method,ADS Reference,Digitizer,Credit
 JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transfomed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping Method,ADS Reference,Digitizer,Credit
 2454498.263,12.0,,,Vis.,SDAV,,,,PRE 2009 SPA CHART,Meade LX200 123053048,,,Z,,,,NSV 2294,AAVSO,STD,,,,BAAVSS
 2457708.97662,5.338,0.033,,B,SRIC,,ENSEMBLE,106,X16950LT,BSM_NM,1,1.659,Z,,11.241,,NSV 2294,AAVSO,STD,,,,

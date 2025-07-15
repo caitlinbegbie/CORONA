@@ -1,0 +1,7 @@
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transformed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping method,ADS Reference,Digitizer,Credit
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transfomed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping Method,ADS Reference,Digitizer,Credit
+2459778.45139,9.7,,,Vis.,MLUC,B,94,97,X281011COO,,,,Z,,,,GQ And,AAVSO,STD,,,,
+2459779.42569,9.8,,,Vis.,MLUC,,94,97,X28101COO,,,,Z,,,,GQ And,AAVSO,STD,,,,
+2459813.4375,10.0,,,Vis.,MLUC,,98,102,X28101COO,,,,Z,,,,GQ And,AAVSO,STD,,,,
+2459842.7,11.3,,,Vis.,ROG,Z,,,,,,,Z,,,,GQ AND,AAVSO,STD,,,,
+2460534.38542,10.7,,,Vis.,MLUC,,102,109,X28101COO,,,,Z,,,,GQ And,AAVSO,STD,,,,

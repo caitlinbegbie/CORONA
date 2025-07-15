@@ -1,0 +1,14 @@
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transformed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping method,ADS Reference,Digitizer,Credit
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transfomed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping Method,ADS Reference,Digitizer,Credit
+2456802.5,8.35,,,Vis.,BNBA,,84,81,Stellarium,,,,Z,,,,GX AND,AAVSO,STD,,,,
+2457256.4,8.05,,,Vis.,BNBA,,75,83,Stellarium,,,,Z,,,,GX AND,AAVSO,STD,,,,
+2458850.37500,8.1,,,Vis.,BNBA,,80,84,Stellarium,,,,Z,,,,GX AND,AAVSO,STD,,,,
+2459584.41,7.9,,,Vis.,PRCA,,,,345.01,B20X80,,,Z,,,,GX And,AAVSO,STD,,,,BAAVSS
+2459778.44792,8.1,,,Vis.,MLUC,B,76,85,X28101COG,,,,Z,,,,GX And,AAVSO,STD,,,,
+2459779.42083,8.2,,,Vis.,MLUC,,76,85,X28101COG,,,,Z,,,,GX And,AAVSO,STD,,,,
+2459789.8,8.3,,,Vis.,ROG,,,,,,,,Z,,,,GX AND,AAVSO,STD,,,,
+2459813.43056,8.7,,,Vis.,MLUC,,85,91,X28101COG,,,,Z,,,,GX And,AAVSO,STD,,,,
+2459842.7,8.2,,,Vis.,ROG,,,,,,,,Z,,,,GX AND,AAVSO,STD,,,,
+2460530.7,8.2,,,Vis.,ROG,,,,,,,,Z,,,,GX AND,AAVSO,STD,,,,
+2460534.375,8.1,,,Vis.,MLUC,,78,85,X28101COG,,,,Z,,,,GX And,AAVSO,STD,,,,
+2460584.7,8.1,,,Vis.,ROG,,,,,,,,Z,,,,GX AND,AAVSO,STD,,,,

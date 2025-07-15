@@ -1,0 +1,20 @@
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transformed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping method,ADS Reference,Digitizer,Credit
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transformed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping method,ADS Reference,Digitizer,Credit
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transfomed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping Method,ADS Reference,Digitizer,Credit
+2439171.6,9.6,,,Vis.,KRS,,,,,,,,V,,,,OMI2 ERI B,,STD,,,,
+2440245.7,9.6,,,Vis.,SKL,,,,,,,,V,,,,OMI2 ERI B,,STD,,,,
+2441976.861,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2442016.852,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2442017.842,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2443158.027,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2443158.033,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2443159.036,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2443170.018,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2443170.027,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2443171.009,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2443171.018,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2443187.036,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2443187.045,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2443194.072,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2443194.081,9.2,,,Vis.,FER,,,,,Magnitude is probably combined brightness of B and C components - HQ 2017,,,V,,,,OMI2 ERI B,,STD,,,,
+2455602.32708,9.18,0.03,,V,TIA,,SA96-96,,4324dvq,Magnitude is probably combined brightness of B and C components - HQ 2017,1,,Z,10.010,,,DY ERI,MCSE,STD,,,,

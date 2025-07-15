@@ -1,4 +1,5 @@
 JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transformed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping method,ADS Reference,Digitizer,Credit
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transformed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping method,ADS Reference,Digitizer,Credit
 JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transfomed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping Method,ADS Reference,Digitizer,Credit
 2437653.50000,4.410,0.01,,U,EOJ,,,,,|SHEETVER=4.2.1|EGGENCARD=C5/B/6/11|DATAFMT=UBV|LOGGER=CJH,1,,Z,,,,NSV 15373,AAVSO,STD,,,,
 2437653.50000,4.220,0.01,,B,EOJ,,,,,|SHEETVER=4.2.1|EGGENCARD=C5/B/6/11|DATAFMT=UBV|LOGGER=CJH,1,,Z,,,,NSV 15373,AAVSO,STD,,,,
