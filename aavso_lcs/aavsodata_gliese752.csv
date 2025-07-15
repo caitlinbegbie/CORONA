@@ -1,0 +1,6 @@
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transformed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping method,ADS Reference,Digitizer,Credit
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transfomed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping Method,ADS Reference,Digitizer,Credit
+2460141.10323,9.071,0.004,,V,YBA,,117A,,230719,|OBSERVAT=PERTH OBSERVATORY|CMAGINS=-9.126|CREFERR=0.064|CREFMAG=11.746|VMAGINS=-11.801,0,1.367,Z,-9.126,,,V1428 AQL,AAVSO,STD,,,,
+2460197.33472,8.9,,,Vis.,CMAE,,8.7,,X29084HM,,,,Z,,,,V1428 AQL,AAVSO,STD,,,,
+2460205.30833,8.8,,,Vis.,CMAE,,8.7,,X29084HM,,,,Z,,,,V1428 AQL,AAVSO,STD,,,,
+2460225.31458,9.0,,,Vis.,CMAE,,8.7,,X29084HM,,,,Z,,,,V1428 AQL,AAVSO,STD,,,,

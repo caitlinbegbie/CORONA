@@ -33,8 +33,8 @@ def to_csv(input_folder_path, output_folder_path):
                 
                 print(f"Successfully converted '{file_name}' to '{new_filename}'")
             except Exception as e:
-                
                 print(f"Error converting '{file_name}': {e}")
+                
         elif os.path.isfile(current_file_path):
             print(f"Skipping '{file_name}': Not a .txt or .csv file.")
         else:
