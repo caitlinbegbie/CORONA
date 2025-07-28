@@ -1,0 +1,8 @@
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transfomed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping Method,ADS Reference,Digitizer,Credit
+2455091.39583,5.8,,,Vis.,RJG,L,54,59,P1999,,,,Z,,,,IW PER,,STD,,,,
+2455091.40000,5.7,,,Vis.,CAI,L,54,59,P1999,,,,Z,,,,IW PER,,STD,,,,
+2457275.528194,6.089,0.126,,V,AAUA,,ENSEMBLE,104,,USED COMPARSTARS = 9,1,1.284,Z,,10.432,,IW PER,AAVSO,STD,281,,,
+2457698.5,5.8,,,Vis.,JTP,,NA,,NA,,,,Z,,,,IW PER,AFOEV,STD,,,,
+2457853.35417,5.9,,,Vis.,RJG,,53,60,X17266SL,,,,Z,,,,IW PER,AAVSO,STD,,,,
+2457853.36458,5.8,,,Vis.,CAI,,53,60,X17266SL,,,,Z,,,,IW PER,AAVSO,STD,,,,
+2458018.5,5.4,,,Vis.,JTP,Z,NA,,NA,,,,Z,,,,IW PER,AFOEV,STD,,,,

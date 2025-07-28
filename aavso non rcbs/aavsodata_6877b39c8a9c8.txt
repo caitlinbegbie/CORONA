@@ -1,0 +1,7 @@
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transfomed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping Method,ADS Reference,Digitizer,Credit
+2451835.68472,6.2,,,Vis.,HUZ,,52,58,SB1939,R LAC CHART,,,Z,,,,ET AND,,STD,,,,
+2451840.76875,6.2,,,Vis.,HUZ,,58,61,SB1939,,,,Z,,,,ET AND,,STD,,,,
+2451842.75000,6.6,,,Vis.,HUZ,,61,71,SB1939,R LAC CHART,,,Z,,,,ET AND,,STD,,,,
+2451848.71389,6.9,,,Vis.,HUZ,,61,71,SB1939,R LAC CHART,,,Z,,,,ET AND,,STD,,,,
+2451855.68264,6.9,,,Vis.,HUZ,,61,71,SB1939,R LAC CHART,,,Z,,,,ET AND,,STD,,,,
+2451856.71042,6.5,,,Vis.,HUZ,,61,71,SB1939,R LAC CHART,,,Z,,,,ET AND,,STD,,,,
