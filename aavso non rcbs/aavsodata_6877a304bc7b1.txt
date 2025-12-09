@@ -1,0 +1,9 @@
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transfomed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping Method,ADS Reference,Digitizer,Credit
+2458984.5056,12.7,,,Vis.,POX,,123,,X22931CBD,,,,Z,,,,LR CYG,AAVSO,STD,,,,
+2459041.4375,12.6,,,Vis.,POX,,123,,X22931CBD,,,,Z,,,,LR CYG,AAVSO,STD,,,,
+2459371.5056,12.7,,,Vis.,POX,,123,,X22931CBD,,,,Z,,,,LR CYG,AAVSO,STD,,,,
+2459379.5139,12.8,,,Vis.,POX,,123,,X22931CBD,,,,Z,,,,LR CYG,AAVSO,STD,,,,
+2459413.4708,12.6,,,Vis.,POX,,123,,X22931CBD,,,,Z,,,,LR CYG,AAVSO,STD,,,,
+2459516.3875,12.8,,,Vis.,POX,,130,,X22931CBD,,,,Z,,,,LR CYG,AAVSO,STD,,,,
+2459770.4938,12.1,,,Vis.,POX,,123,,X22931CBD,,,,Z,,,,LR CYG,AAVSO,STD,,,,
+2459903.3229,11.3,,,Vis.,POX,,116,,X22931CBD,,,,Z,,,,LR CYG,AAVSO,STD,,,,

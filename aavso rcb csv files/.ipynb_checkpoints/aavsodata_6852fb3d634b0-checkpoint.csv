@@ -1,0 +1,12 @@
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transformed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping method,ADS Reference,Digitizer,Credit
+JD,Magnitude,Uncertainty,HQuncertainty,Band,Observer Code,Comment Code(s),Comp Star 1,Comp Star 2,Charts,Comments,Transfomed,Airmass,Validation Flag,Cmag,Kmag,HJD,Star Name,Observer Affiliation,Measurement Method,Grouping Method,ADS Reference,Digitizer,Credit
+2457863.99653,<15.8,,,Vis.,HSP,,158,,14253AT,,,,Z,,,,OGLE LMC-RCB-04,RASNZ-VSS,STD,,,,
+2458130.11597,<15.6,,,Vis.,HSP,,156,,X22584EN,,,,Z,,,,OGLE LMC-RCB-04,RASNZ-VSS,STD,,,,
+2458143.01736,<15.8,,,Vis.,HSP,U,158,,X22584EN,,,,Z,,,,OGLE LMC-RCB-04,RASNZ-VSS,STD,,,,
+2458244.87500,15.4,,,Vis.,HSP,,148,156,X22584EN,,,,Z,,,,OGLE LMC-RCB-04,RASNZ-VSS,STD,,,,
+2458277.82639,15.3,,,Vis.,HSP,,148,156,X22584EN,,,,Z,,,,OGLE LMC-RCB-04,RASNZ-VSS,STD,,,,
+2458514.00347,14.5,,,Vis.,HSP,,143,148,X22584EN,,,,Z,,,,OGLE LMC-RCB-04,RASNZ-VSS,STD,,,,
+2458527.06250,15.2,,,Vis.,HSP,,148,156,X22584EN,,,,Z,,,,OGLE LMC-RCB-04,RASNZ-VSS,STD,,,,
+2458897.93681,14.6,,,Vis.,HSP,,143,148,X24267AC,,,,Z,,,,OGLE LMC-RCB-04,RASNZ-VSS,STD,,,,
+2459610.03542,14.5,,,Vis.,HSP,,143,148,X25654AOU,,,,Z,,,,EROS2-LMC-RCB-2,RASNZ-VSS,STD,,,,
+2459664.93194,14.6,,,Vis.,HSP,,143,148,X25654AOU,,,,Z,,,,EROS2-LMC-RCB-2,RASNZ-VSS,STD,,,,
